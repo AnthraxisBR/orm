@@ -66,6 +66,13 @@ class SimpleObjectHydrator extends AbstractHydrator
 
         while ($row = $this->_stmt->fetch(PDO::FETCH_ASSOC)) {
             $this->hydrateRowData($row, $result);
+
+            /**
+             * Need to use Doctrine ORM with Swoole
+             */
+            if(count($result) == count($row)){
+                break;
+            }
         }
 
         $this->_em->getUnitOfWork()->triggerEagerLoads();
