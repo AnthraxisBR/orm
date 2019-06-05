@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a228060bd2a81bc35fed16c8e51376e9",
+    "content-hash": "e5aa614ade1b4e86209e85274ba2da5c",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -218,98 +218,6 @@
                 "php"
             ],
             "time": "2019-03-25T19:03:48+00:00"
-        },
-        {
-            "name": "doctrine/dbal-two",
-            "version": "9999999-dev",
-            "dist": {
-                "type": "path",
-                "url": "/home/bitflix/PhpstormProjects/dbal",
-                "reference": "04cec98991ce36bae226aed47d93e766a45c98c5",
-                "shasum": null
-            },
-            "require": {
-                "doctrine/cache": "^1.0",
-                "doctrine/event-manager": "^1.0",
-                "ext-pdo": "*",
-                "php": "^7.2",
-                "swlib/swpdo": "dev-master"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "jetbrains/phpstorm-stubs": "^2018.1.2",
-                "phpstan/phpstan": "^0.11.3",
-                "phpunit/phpunit": "^8.1.6",
-                "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
-                "symfony/phpunit-bridge": "^3.4.5|^4.0.5|^5.0"
-            },
-            "suggest": {
-                "symfony/console": "For helpful console commands such as SQL execution and import of files."
-            },
-            "bin": [
-                "bin/doctrine-dbal"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.10.x-dev",
-                    "dev-develop": "3.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\DBAL\\": "lib/Doctrine/DBAL"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Doctrine\\Tests\\": "tests/Doctrine/Tests"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
-                },
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                }
-            ],
-            "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
-            "homepage": "https://www.doctrine-project.org/projects/dbal.html",
-            "keywords": [
-                "abstraction",
-                "database",
-                "db2",
-                "dbal",
-                "mariadb",
-                "mssql",
-                "mysql",
-                "oci8",
-                "oracle",
-                "pdo",
-                "pgsql",
-                "postgresql",
-                "queryobject",
-                "sasql",
-                "sql",
-                "sqlanywhere",
-                "sqlite",
-                "sqlserver",
-                "sqlsrv"
-            ]
         },
         {
             "name": "doctrine/event-manager",
@@ -838,63 +746,6 @@
                 "service proxies"
             ],
             "time": "2018-09-27T13:45:01+00:00"
-        },
-        {
-            "name": "swlib/swpdo",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/swlib/swpdo.git",
-                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/swlib/swpdo/zipball/17865b9615c712034dd6023cac0ccecb5e48c8ea",
-                "reference": "17865b9615c712034dd6023cac0ccecb5e48c8ea",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "eaglewu/swoole-ide-helper": "dev-master",
-                "phpunit/phpunit": "~7"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/SwPDO.php"
-                ],
-                "psr-4": {
-                    "Swlib\\SwPDO\\": "src"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ]
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "twosee",
-                    "email": "twose@qq.com"
-                }
-            ],
-            "description": "Swoole Coroutine SQL component like PDO",
-            "keywords": [
-                "mysql",
-                "pdo",
-                "php",
-                "swoole"
-            ],
-            "support": {
-                "source": "https://github.com/swlib/swpdo/tree/master",
-                "issues": "https://github.com/swlib/swpdo/issues"
-            },
-            "time": "2019-04-15T10:10:11+00:00"
         },
         {
             "name": "symfony/console",
@@ -1512,6 +1363,92 @@
                 "style"
             ],
             "time": "2019-03-15T12:45:47+00:00"
+        },
+        {
+            "name": "doctrine/dbal-two",
+            "version": "9999999-dev",
+            "dist": {
+                "type": "path",
+                "url": "/home/bitflix/PhpstormProjects/dbal",
+                "reference": "895d02d85d80a270a5e586ee4f694c98a2159459",
+                "shasum": null
+            },
+            "require": {
+                "doctrine/cache": "^1.0",
+                "doctrine/event-manager": "^1.0",
+                "ext-pdo": "*",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "jetbrains/phpstorm-stubs": "^2018.1.2",
+                "phpstan/phpstan": "^0.11.3",
+                "phpunit/phpunit": "^8.1.6",
+                "swlib/swpdo": "dev-master",
+                "symfony/console": "^2.0.5|^3.0|^4.0|^5.0",
+                "symfony/phpunit-bridge": "^3.4.5|^4.0.5|^5.0"
+            },
+            "suggest": {
+                "symfony/console": "For helpful console commands such as SQL execution and import of files."
+            },
+            "bin": [
+                "bin/doctrine-dbal"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\DBAL\\": "lib/Doctrine/DBAL"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Doctrine\\Tests\\": "tests/Doctrine/Tests"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
+            "homepage": "https://www.doctrine-project.org/projects/dbal.html",
+            "keywords": [
+                "abstraction",
+                "database",
+                "db2",
+                "dbal",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oci8",
+                "oracle",
+                "pdo",
+                "pgsql",
+                "postgresql",
+                "queryobject",
+                "sasql",
+                "sql",
+                "sqlanywhere",
+                "sqlite",
+                "sqlserver",
+                "sqlsrv"
+            ]
         },
         {
             "name": "myclabs/deep-copy",
@@ -3108,8 +3045,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "doctrine/dbal-two": 20,
-        "swlib/swpdo": 20
+        "doctrine/dbal-two": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
