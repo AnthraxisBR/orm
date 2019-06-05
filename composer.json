@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/orm",
+    "name": "doctrine/orm-sw",
     "type": "library",
     "description": "PHP object relational mapper (ORM) that sits on top of a powerful database abstraction layer (DBAL). One of its key features is the option to write database queries in a proprietary object oriented SQL dialect called Doctrine Query Language (DQL). This provides developers with a powerful alternative to SQL that maintains flexibility without requiring unnecessary code duplication.",
     "keywords": [
@@ -39,7 +39,7 @@
         "doctrine/annotations": "~1.5",
         "doctrine/cache": "~1.6",
         "doctrine/collections": "^1.4",
-        "doctrine/dbal": "dev-snapshot/develop/2018-11-26 as 3.x-dev",
+        "doctrine/dbal-2": "dev-master",
         "doctrine/event-manager": "^1.0",
         "doctrine/inflector": "~1.0",
         "doctrine/instantiator": "~1.1",
@@ -48,8 +48,19 @@
         "ocramius/package-versions": "^1.1.2",
         "ocramius/proxy-manager": "^2.1.1",
         "symfony/console": "~3.2|~4.0",
-        "symfony/var-dumper": "^4.1"
+        "symfony/var-dumper": "^4.1",
+        "swlib/swpdo": "dev-master"
     },
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/AnthraxisBR/dbal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/swlib/swpdo"
+        }
+    ],
     "require-dev": {
         "ext-pdo": "*",
         "doctrine/coding-standard": "^6.0",
