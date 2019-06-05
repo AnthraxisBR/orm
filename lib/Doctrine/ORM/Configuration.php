@@ -102,7 +102,7 @@ class Configuration extends DBALConfiguration
     /**
      * Sets the directory where Doctrine generates any necessary proxy class files.
      */
-    public function setProxyDir(string $directory) : void
+    public function setProxyDir($directory) : void
     {
         $this->getProxyManagerConfiguration()->setProxiesTargetDir($directory);
         $this->setAutoGenerateProxyClasses(ProxyFactory::AUTOGENERATE_FILE_NOT_EXISTS);
@@ -138,7 +138,7 @@ class Configuration extends DBALConfiguration
     /**
      * Sets the namespace where proxy classes reside.
      */
-    public function setProxyNamespace(string $namespace) : void
+    public function setProxyNamespace($namespace) : void
     {
         $this->getProxyManagerConfiguration()->setProxiesNamespace($namespace);
     }

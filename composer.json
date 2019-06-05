@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/orm-sw",
+    "name": "doctrine/orm",
     "type": "library",
     "description": "PHP object relational mapper (ORM) that sits on top of a powerful database abstraction layer (DBAL). One of its key features is the option to write database queries in a proprietary object oriented SQL dialect called Doctrine Query Language (DQL). This provides developers with a powerful alternative to SQL that maintains flexibility without requiring unnecessary code duplication.",
     "keywords": [
@@ -60,7 +60,7 @@
         "doctrine/coding-standard": "^6.0",
         "phpstan/phpstan-shim": "^0.9.2",
         "phpunit/phpunit": "^7.0",
-        "doctrine/dbal-two": "dev-master"
+        "doctrine/dbal": "dev-master"
     },
     "autoload": {
         "psr-4": { "Doctrine\\ORM\\": "lib/Doctrine/ORM" }

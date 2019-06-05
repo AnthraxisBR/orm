@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5aa614ade1b4e86209e85274ba2da5c",
+    "content-hash": "2c8f45bd5139a5d830de27a614527619",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1365,12 +1365,12 @@
             "time": "2019-03-15T12:45:47+00:00"
         },
         {
-            "name": "doctrine/dbal-two",
+            "name": "doctrine/dbal",
             "version": "9999999-dev",
             "dist": {
                 "type": "path",
                 "url": "/home/bitflix/PhpstormProjects/dbal",
-                "reference": "895d02d85d80a270a5e586ee4f694c98a2159459",
+                "reference": "4bbb9c02a4a576476bd68b93b3b81c7706907f91",
                 "shasum": null
             },
             "require": {
@@ -3045,7 +3045,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "doctrine/dbal-two": 20
+        "doctrine/dbal": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

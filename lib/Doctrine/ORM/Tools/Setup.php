@@ -36,7 +36,6 @@ class Setup
     {
         $config = self::createConfiguration($isDevMode, $proxyDir, $cache);
         $config->setMetadataDriverImpl($config->newDefaultAnnotationDriver($paths));
-
         return $config;
     }
 
@@ -67,6 +66,7 @@ class Setup
      */
     public static function createConfiguration($isDevMode = false, $proxyDir = null, ?Cache $cache = null)
     {
+
         $proxyDir = $proxyDir ?: sys_get_temp_dir();
 
         $cache = self::createCacheConfiguration($isDevMode, $proxyDir, $cache);
