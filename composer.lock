@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c8f45bd5139a5d830de27a614527619",
+    "content-hash": "b61bf1f8dffedca46d444939aad05488",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1366,12 +1366,17 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "9999999-dev",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AnthraxisBR/dbal.git",
+                "reference": "4bbb9c02a4a576476bd68b93b3b81c7706907f91"
+            },
             "dist": {
-                "type": "path",
-                "url": "/home/bitflix/PhpstormProjects/dbal",
+                "type": "zip",
+                "url": "https://api.github.com/repos/AnthraxisBR/dbal/zipball/4bbb9c02a4a576476bd68b93b3b81c7706907f91",
                 "reference": "4bbb9c02a4a576476bd68b93b3b81c7706907f91",
-                "shasum": null
+                "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.0",
@@ -1448,7 +1453,11 @@
                 "sqlite",
                 "sqlserver",
                 "sqlsrv"
-            ]
+            ],
+            "support": {
+                "source": "https://github.com/AnthraxisBR/dbal/tree/master"
+            },
+            "time": "2019-06-05T18:38:56+00:00"
         },
         {
             "name": "myclabs/deep-copy",

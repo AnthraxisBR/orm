@@ -51,8 +51,8 @@
     },
     "repositories" : [
         {
-            "type": "path",
-            "url": "/home/bitflix/PhpstormProjects/dbal"
+            "type": "vcs",
+            "url": "https://github.com/AnthraxisBR/dbal"
         }
     ],
     "require-dev": {
