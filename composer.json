@@ -26,6 +26,16 @@
         "doctrine/instantiator": "~1.1",
         "symfony/console": "~3.0|~4.0"
     },
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/swlib/swpdo"
+        },
+        {
+            "type": "path",
+            "url": "/home/bitflix/PhpstormProjects/dbal"
+        }
+    ],
     "require-dev": {
         "doctrine/coding-standard": "^5.0",
         "phpunit/phpunit": "^6.5",
