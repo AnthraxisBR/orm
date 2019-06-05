@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26e6b70d4bb642d058cf4b3560b32760",
+    "content-hash": "a228060bd2a81bc35fed16c8e51376e9",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -220,18 +220,13 @@
             "time": "2019-03-25T19:03:48+00:00"
         },
         {
-            "name": "doctrine/dbal-2",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/AnthraxisBR/dbal.git",
-                "reference": "c28bcf69ca34276a1430a4547d9233d636bae151"
-            },
+            "name": "doctrine/dbal-two",
+            "version": "9999999-dev",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AnthraxisBR/dbal/zipball/c28bcf69ca34276a1430a4547d9233d636bae151",
-                "reference": "c28bcf69ca34276a1430a4547d9233d636bae151",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/bitflix/PhpstormProjects/dbal",
+                "reference": "04cec98991ce36bae226aed47d93e766a45c98c5",
+                "shasum": null
             },
             "require": {
                 "doctrine/cache": "^1.0",
@@ -314,11 +309,7 @@
                 "sqlite",
                 "sqlserver",
                 "sqlsrv"
-            ],
-            "support": {
-                "source": "https://github.com/AnthraxisBR/dbal/tree/master"
-            },
-            "time": "2019-06-05T16:37:47+00:00"
+            ]
         },
         {
             "name": "doctrine/event-manager",
@@ -3117,7 +3108,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "doctrine/dbal-2": 20,
+        "doctrine/dbal-two": 20,
         "swlib/swpdo": 20
     },
     "prefer-stable": false,

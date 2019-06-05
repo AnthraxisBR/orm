@@ -39,7 +39,7 @@
         "doctrine/annotations": "~1.5",
         "doctrine/cache": "~1.6",
         "doctrine/collections": "^1.4",
-        "doctrine/dbal-2": "dev-master",
+        "doctrine/dbal-two": "dev-master",
         "doctrine/event-manager": "^1.0",
         "doctrine/inflector": "~1.0",
         "doctrine/instantiator": "~1.1",
@@ -53,8 +53,8 @@
     },
     "repositories" : [
         {
-            "type": "vcs",
-            "url": "https://github.com/AnthraxisBR/dbal"
+            "type": "path",
+            "url": "/home/bitflix/PhpstormProjects/dbal"
         },
         {
             "type": "vcs",
